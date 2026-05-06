@@ -16,7 +16,7 @@ export const SITE_CONFIG = {
   siteTitle: "ReDan — An Antique Love Story",
   heroTagline: "i fall in love with you , but i am falling more and more , day by day",
   siteDescription: "A piece of our memories",
-  siteURL: "netflix-styled-proposal-template-pi.vercel.app",
+  siteURL: "[https://netflix-styled-proposal-template-pi.vercel.app](https://netflix-styled-proposal-template-pi.vercel.app)",
   ogImage: "https://res.cloudinary.com/dyjobbl36/image/upload/q_auto/f_auto/v1778065418/IMG_9266_xmdsql.heic/images/og-preview.jpg",
   introSoundUrl: "/audio/intro-sound.mp3", // Sound to play on intro screen click
 };
