@@ -7,13 +7,13 @@
 
 // ─── Site Configuration ─────────────────────────────────────────────────────
 export const SITE_CONFIG = {
-  herName: "Anushka",
-  yourName: "Virat",
-  birthdayDate: "1988-05-1",
-  anniversaryDate: "2017-10-11", // Changed to April 17, 2025
-  firstMetDate: "2013-01-11", // Based on your timeline
+  herName: "Prema",
+  yourName: "Danish",
+  birthdayDate: "1995-05-06",
+  anniversaryDate: "2025-05-06", // Changed to April 17, 2025
+  firstMet: "2020", // Based on your timeline
 
-  siteTitle: "Virushka — A Perfect Love Story",
+  siteTitle: "ReDan — An Antique Love Story",
   heroTagline: "i fall in love with you , but i am falling more and more , day by day",
   siteDescription: "A piece of our memories",
   siteURL: "https://happybirthdaykittu.vercel.app",
@@ -24,7 +24,7 @@ export const SITE_CONFIG = {
 // ─── Profile Selection ──────────────────────────────────────────────────────
 export const PROFILES = [
   {
-    id: "Anushka",
+    id: "Prema",
     name: SITE_CONFIG.herName,
     emoji: "💖",
     color: "#E91E8C",
@@ -36,15 +36,15 @@ export const PROFILES = [
     name: SITE_CONFIG.yourName,
     emoji: "🎬",
     color: "#E50914",
-    hint: "Virat",
+    hint: "Dan",
     isMain: false,
   },
 ];
 
 // ─── Hero Banner ────────────────────────────────────────────────────────────
 export const HERO = {
-  backgroundImageMobile: "https://res.cloudinary.com/dadpljanb/image/upload/v1774541238/1774540830108_efcwyg.png",
-  backgroundImageDesktop: "https://res.cloudinary.com/dadpljanb/image/upload/v1774541238/1774540798169_egyqbt.png",
+  backgroundImageMobile: "https://res.cloudinary.com/dyjobbl36/image/upload/q_auto/f_auto/v1778065295/IMG20250720231630_uzpklo.jpg",
+  backgroundImageDesktop: "https://res.cloudinary.com/dyjobbl36/image/upload/q_auto/f_auto/v1778065432/IMG20250720191547_y0hxf7.jpg",
   title: SITE_CONFIG.herName,
   description: "This is a world built just for you.",
   ctaPrimary: { label: "Watch Our Story", anchor: "#video" },
@@ -68,7 +68,7 @@ export const MEMORY_ROWS = [
         title: "From this",
         date: "Muhhhaaaaaaa",
         image:
-          "https://res.cloudinary.com/dadpljanb/image/upload/v1774541582/54448_m9lekh.jpg",
+          "https://res.cloudinary.com/dyjobbl36/image/upload/q_auto/f_auto/v1778065430/IMG20250614163357_BURST003_pd8zfb.jpg",
         message: "Kitniii cutee lag rahi hai yaarr tu ismee",
         tag: "First Photo",
       },
@@ -77,27 +77,27 @@ export const MEMORY_ROWS = [
         title: "Sweetest Face",
         date: "mmuuuhaaaaaa",
         image:
-          "https://res.cloudinary.com/dadpljanb/image/upload/v1774541584/54464_gg2lrz.jpg",
+          "https://res.cloudinary.com/dyjobbl36/image/upload/q_auto/f_auto/v1778065293/IMG20251126123703_t83hre.heic",
         message:
           "Just looking like a white apsaraaaa",
         tag: "Nazar naa lagee🧿",
       },
       {
         id: "begin-3",
-        title: "Merii Bacchiii",
+        title: "Merii Kuchu",
         date: "hehehehe",
         image:
-          "https://res.cloudinary.com/dadpljanb/image/upload/v1774541584/54446_guqhlh.jpg",
+          "https://res.cloudinary.com/dyjobbl36/image/upload/q_auto/f_auto/v1778065713/IMG20251220090648_buccwi.heic",
         message:
-          "Haayeeeeeee yeh smileeeeee",
-        tag: "Thatt smileee",
+          "Haayeeeeeee yeh adaaye",
+        tag: "Thatt looks",
       },
       {
         id: "begin-4",
         title: "To This...",
         date: "Uffff Yaarrr",
         image:
-          "https://res.cloudinary.com/dadpljanb/image/upload/v1774541584/54466_usqdbv.jpg",
+          "https://res.cloudinary.com/dyjobbl36/image/upload/q_auto/f_auto/v1778065721/IMG20250506004002_vuwezi.jpg",
         message:
           "Kaha se aagayii itnii khoobsurant bandi meri lifee meinnn",
         tag: "Realisation",
@@ -111,32 +111,32 @@ export const MEMORY_ROWS = [
     cards: [
       {
         id: "adv-1",
-        title: "Aapki zhulfe",
+        title: "Aapki Lips",
         date: "Haayee ye adaayein",
         image:
-          "https://res.cloudinary.com/dadpljanb/image/upload/v1774541583/54454_yszfba.jpg",
+          "https://res.cloudinary.com/dyjobbl36/image/upload/q_auto/f_auto/v1778066323/IMG20260122143348_vfwg4k.heic",
         message:
           "My fav hobby - Taking photos of you",
         tag: "Matching",
       },
       {
         id: "adv-2",
-        title: "A rose on my Gulaab",
+        title: "My Yellow Person",
         date: "That Jhumka",
         image:
-          "https://res.cloudinary.com/dadpljanb/image/upload/v1774541584/54449_sdp77a.jpg",
+          "https://res.cloudinary.com/dyjobbl36/image/upload/q_auto/f_auto/v1778066408/IMG-20251017-WA0011_bbmasb.jpg",
         message:
-          "Yeh jhumka kisne diyaaaa",
+          "Haye Jhumka gira Bareli k bazaar me",
         tag: "Jhumka",
       },
       {
         id: "adv-3",
-        title: "Masoom Aakhein",
+        title: "The first night out",
         date: "Wallpaper Material",
         image:
-          "https://res.cloudinary.com/dadpljanb/image/upload/v1774541584/54455_tei2lm.jpg",
+          "https://res.cloudinary.com/dyjobbl36/image/upload/v1778066666/IMG20250720233519_rhb3g0.jpg",
         message:
-          "I dont know why i liked this one , but i lovee thiss",
+          "Dinner Date",
         tag: "Muuhaaaa",
       },
       {
@@ -144,10 +144,10 @@ export const MEMORY_ROWS = [
         title: "Biwi Ji",
         date: "Wify Material",
         image:
-          "https://res.cloudinary.com/dadpljanb/image/upload/v1774541585/54467_uhifn8.jpg",
+          "https://res.cloudinary.com/dyjobbl36/image/upload/q_auto/f_auto/v1778066767/IMG20250720183840_oehl9d.jpg",
         message:
-          "This Saaree speaks alot",
-        tag: "Whityyyyy",
+          "This picture speaks alot",
+        tag: "Wholesome",
       },
     ],
   },
@@ -161,17 +161,17 @@ export const MEMORY_ROWS = [
         title: "Bacchu inside her",
         date: "Lalla laaa laaa laaa",
         image:
-          "https://res.cloudinary.com/dadpljanb/image/upload/v1774541585/54450_dcukuf.jpg",
+          "https://res.cloudinary.com/dyjobbl36/image/upload/q_auto/f_auto/v1778066848/IMG20250706175820_wa9mqu.jpg",
         message:
-          "THe way she walk...",
-        tag: "Bacchuu",
+          "THe way kuchu acts...",
+        tag: "kuccchuu",
       },
       {
         id: "little-2",
         title: "Cutieeeeee",
-        date: "Kya dikh rahi hai tuuu",
+        date: "Kya dikh rahi hai aaap",
         image:
-          "https://res.cloudinary.com/dadpljanb/image/upload/v1774541585/54459_gd3mw7.jpg",
+          "https://res.cloudinary.com/dyjobbl36/image/upload/q_auto/f_auto/v1778066961/IMG-20240720-WA0001_w8voto.jpg",
         message:
           "Aap apni cuteness controll kese karte hoo ??/",
         tag: "Mine",
@@ -181,20 +181,20 @@ export const MEMORY_ROWS = [
         title: "The Girl I love",
         date: "Expressions yaarrrr",
         image:
-          "https://res.cloudinary.com/dadpljanb/image/upload/v1774541585/54452_ze7and.jpg",
+          "https://res.cloudinary.com/dyjobbl36/image/upload/q_auto/f_auto/v1778067013/IMG-20240805-WA0007_e4qjeq.jpg",
         message:
-          "Bus dekhooo issee , kyaa dikh rhii haiii",
-        tag: "Dancing",
+          "Bus dekhe jao issee",
+        tag: "Lips",
       },
       {
         id: "little-4",
-        title: "Rider Girl",
-        date: "Aaja meri Gaadi mein beth jaa",
+        title: "Sky Girl",
+        date: "Blue hai sky blue hu me",
         image:
-          "https://res.cloudinary.com/dadpljanb/image/upload/v1774541585/54463_pw7gfm.jpg",
+          "https://res.cloudinary.com/dyjobbl36/image/upload/q_auto/f_auto/v1778067121/IMG_8351_1_j5p9b5.jpg",
         message:
-          "Side hatt jaoo, madamji driving kar rahi haiiii",
-        tag: "Broom broom",
+          "Akash Wani",
+        tag: "Blue h sab",
       },
     ],
   },
@@ -208,39 +208,39 @@ export const MEMORY_ROWS = [
         title: "Bestest",
         date: "All Yours",
         image:
-          "https://res.cloudinary.com/dadpljanb/image/upload/v1774541586/54447_pvunsi.jpg",
+          "https://res.cloudinary.com/dyjobbl36/image/upload/q_auto/f_auto/v1778067320/IMG_0207_jl0i1h.jpg",
         message:
-          "Matching cloths is my second hobby",
+          "Kya nazar hai",
         tag: "Together",
       },
       {
         id: "fav-2",
         title: "Happy Time",
-        date: "Just admiring your beauty",
+        date: "Just U and ME",
         image:
-          "https://res.cloudinary.com/dadpljanb/image/upload/v1774541586/54451_ffgbza.jpg",
+          "https://res.cloudinary.com/dyjobbl36/image/upload/q_auto/f_auto/v1778067325/IMG_5435_ipxeno.heic",
         message:
-          "The way you care for everyone around you makes me fall in love with you all over again.",
+          "The trip.",
         tag: "Admiring",
       },
       {
         id: "fav-3",
-        title: "Timepass",
+        title: "Cap and Glass on",
         date: "Always",
         image:
-          "https://res.cloudinary.com/dadpljanb/image/upload/v1774541586/54462_smfvao.jpg",
+          "https://res.cloudinary.com/dyjobbl36/image/upload/q_auto/f_auto/v1778067323/IMG_5373_ckwfhu.heic",
         message:
-          "Baccha in our heart , will never die.",
+          "The blue sea and you.",
         tag: "Joy",
       },
       {
         id: "fav-4",
-        title: "Chummii samay",
-        date: "only you and me",
+        title: "Mast Photo",
+        date: "one of the first",
         image:
-          "https://res.cloudinary.com/dadpljanb/image/upload/v1774541586/54453_yilznv.jpg",
+          "https://res.cloudinary.com/dyjobbl36/image/upload/v1778067552/IMG-20220102-WA0031_qy3pqw.jpg",
         message:
-          "Every version of you — brave, silly, gentle, Angry — I choose them all. Every single time.",
+          "When you do not know what had future hold for us.",
         tag: "Everything",
       },
     ],
@@ -251,16 +251,16 @@ export const MEMORY_ROWS = [
 export const TIMELINE_EVENTS = [
   {
     id: "tl-1",
-    date: "September 2023",
+    date: "2020",
     title: "The Day We Met",
     description:
-      "Knowing Eachother from a long time, but never realized that you are the one for me",
+      "PF me kar ke deta",
     emoji: "💫",
     isSpecial: false,
   },
   {
     id: "tl-2",
-    date: "December 2024",
+    date: "2025",
     title: "Living our life",
     description:
       "We were doing good , but then we started doing better after 2025",
@@ -269,7 +269,7 @@ export const TIMELINE_EVENTS = [
   },
   {
     id: "tl-3",
-    date: "March 2025",
+    date: "2025",
     title: "I fell Harder for You",
     description:
       "I started falling for you more and more each day",
@@ -278,7 +278,7 @@ export const TIMELINE_EVENTS = [
   },
   {
     id: "tl-4",
-    date: "April 2026",
+    date: "May 2026",
     title: "Another Year of Us",
     description:
       "we spent a whole year together , and time was running in 5x always felt like yesterday",
@@ -310,15 +310,15 @@ export const VIDEO_SECTION = {
 export const LOVE_LETTER = {
   salutation: `My dearest ${SITE_CONFIG.herName},`,
   paragraphs: [
-    `Before you, I thought love was just a word people used when they ran out of better ones. Then you walked into my life and gave it a meaning so deep that every poem I'd ever read suddenly made sense. You didn't just enter my world — you became it.`,
-    `I love the way you laugh when you think nobody's watching, the way you fight for the people you care about, and the way you make even the most ordinary Tuesday feel like a celebration. You carry an entire galaxy inside you, and I'm endlessly grateful you let me orbit your light.`,
-    `There are a thousand versions of the future I've imagined, and you are in every single one. Not as a chapter, not as a footnote — but as the entire story. You are the plot twist I never saw coming and the happy ending I'll spend my whole life writing.`,
-    `So today, on your birthday, I don't just want to give you a gift — I want to give you a promise. A promise that every dawn will start with your name on my lips, every sunset will end with your hand in mine, and every moment in between will be spent making sure you know just how loved you are.`,
+    `I do not like to chatgpt my feeling because its not algorithm is you and me.`,
+    `The more we fight the more we love.`,
+    `You are not the one I imagined but you are the one that I could have never imagined.`,
+    `So today, on your birthday, I would like to say let me just give you smile after that you know there is laughter too and too much understanding.`,
   ],
   closing: "All of my love, always,",
   signature: SITE_CONFIG.yourName,
-  postscript:
-    "P.S. — Click the ♥ five times. I left you something. 🔮",
+  //postscript:
+   // "P.S. — Click the ♥ five times. I left you something. 🔮",
 };
 
 // ─── Love Stats ─────────────────────────────────────────────────────────────
