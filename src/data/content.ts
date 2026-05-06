@@ -317,8 +317,8 @@ export const LOVE_LETTER = {
   ],
   closing: "All of my love, always,",
   signature: SITE_CONFIG.yourName,
-  //postscript:
-   // "P.S. — Click the ♥ five times. I left you something. 🔮",
+  postscript:
+  "P.S. — Click the ♥ five times. I left you something. 🔮",
 };
 
 // ─── Love Stats ─────────────────────────────────────────────────────────────
