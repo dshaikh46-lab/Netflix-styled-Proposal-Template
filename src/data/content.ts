@@ -16,7 +16,7 @@ export const SITE_CONFIG = {
   siteTitle: "ReDan — An Antique Love Story",
   heroTagline: "i fall in love with you , but i am falling more and more , day by day",
   siteDescription: "A piece of our memories",
-  siteURL: "[https://netflix-styled-proposal-template-pi.vercel.app](https://netflix-styled-proposal-template-pi.vercel.app)",
+  siteURL: "https://netflix-styled-proposal-template-pi.vercel.app",
   ogImage: "https://res.cloudinary.com/dyjobbl36/image/upload/q_auto/f_auto/v1778065418/IMG_9266_xmdsql.heic/images/og-preview.jpg",
   introSoundUrl: "/audio/intro-sound.mp3", // Sound to play on intro screen click
 };
@@ -364,124 +364,14 @@ export const EASTER_EGGS = {
 };
 
 // ─── Secret "For You" Page Content ──────────────────────────────────────────
-export const SECRET_GALLERY = [
-  {
-    id: "sec-1",
-    url: "https://res.cloudinary.com/dadpljanb/image/upload/v1774541586/54469_ssvubn.jpg",
-    caption: "The day I realised you were my forever.",
-    date: "",
-  },
-  {
-    id: "sec-2",
-    url: "https://res.cloudinary.com/dadpljanb/image/upload/v1774541587/54457_f0xmwi.jpg",
-    caption: "Our quiet escape from the world.",
-    date: "",
-  },
-  {
-    id: "sec-3",
-    url: "https://res.cloudinary.com/dadpljanb/image/upload/v1774541586/54456_hsue9y.jpg",
-    caption: "Sleepy eyes and Sunday mornings.",
-    date: "",
-  },
-  {
-    id: "sec-4",
-    url: "https://res.cloudinary.com/dadpljanb/image/upload/v1774541587/54468_klk4kv.jpg",
-    caption: "Just us, holding on.",
-    date: "",
-  },
-  {
-    id: "sec-5",
-    url: "https://res.cloudinary.com/dadpljanb/image/upload/v1774541587/54461_km8x2k.jpg",
-    caption: "When the sky matched how I felt inside.",
-    date: "",
-  },
-  {
-    id: "sec-6",
-    url: "https://res.cloudinary.com/dadpljanb/image/upload/v1774541591/54460_u2mjbo.jpg",
-    caption: "Walking through life to your rhythm.",
-    date: "",
-  },
-  {
-    id: "sec-7",
-    url: "https://res.cloudinary.com/dadpljanb/image/upload/v1774541592/54465_gbrtvq.jpg",
-    caption: "Stolen moments, etched in my heart.",
-    date: "",
-  },
-  {
-    id: "sec-8",
-    url: "https://res.cloudinary.com/dadpljanb/image/upload/v1774541592/54458_qadr8t.jpg",
-    caption: "You, completely unguarded. My favourite view.",
-    date: "",
-  },
-];
+export const SECRET_GALLERY: { id: string; url: string; caption: string; date: string }[] = [];
 
-export const FIFTY_REASONS = [
-  "1. The way your eyes light up when you talk about something you're passionate about.",
-  "2. How you somehow intuitively know exactly when I need a hug without me saying a word.",
-  "3. The tiny, almost imperceptible nose scrunch you do when you're concentrating really hard.",
-  "4. Your laugh—the loud, completely unguarded one that makes my entire day brighter.",
-  "5. How safe and incredibly at peace I feel just sitting in silence next to you.",
-  "6. The way you care for your friends—with a fierce, protective loyalty that awes me.",
-  "7. Your resilience. You've walked through fire and still kept your heart overwhelmingly soft.",
-  "8. How you remember the smallest, most insignificant details about the things I like.",
-  "9. The gentle way your fingers trace patterns on my arm when we're watching a movie.",
-  "10. Your ambition and the fire in your soul when you set your mind on a goal.",
-  "11. The way your hair smells like vanilla and something entirely uniquely 'you'.",
-  "12. How you challenge me to be better, not by demanding it, but by inspiring it.",
-  "13. Your ridiculous, terrible jokes that somehow make me laugh harder than good ones.",
-  "14. The fact that you unapologetically sing completely out of tune in the car with me.",
-  "15. How fiercely independent you are, yet how willingly you share your world with me.",
-  "16. The way you excitedly drag me to look at the moon or a particularly beautiful sunset.",
-  "17. Your kindness to strangers, to waiters, to animals—it shows the pure gold of your heart.",
-  "18. How you effortlessly fit into the spaces of my soul I didn't even know were empty.",
-  "19. The way you sleep—tangled in the blankets, completely trusting and peaceful.",
-  "20. Your stubbornness when you know you're right (and you usually are).",
-  "21. How you make mundane things like grocery shopping feel like an absolute adventure.",
-  "22. The empathy in your voice when you're listening to someone who's hurting.",
-  "23. That specific, warm smile you give me from across a crowded room that says 'I see you'.",
-  "24. How you always steal the covers, yet I somehow never mind being cold if you're warm.",
-  "25. Your courage to be vulnerable with me with all your fears and insecurities.",
-  "26. The way you completely lose track of time when you're reading a good book.",
-  "27. How your hand feels perfectly constructed just to hold mine.",
-  "28. The adorable little sounds you make when you're stretching in the morning.",
-  "29. Your ability to find the silver lining in almost any terrible situation.",
-  "30. How passionately you argue over movie plots and character arcs.",
-  "31. The way you look at me like I am the only person left on earth.",
-  "32. Your patience with me on my absolute worst, most difficult days.",
-  "33. How you can communicate an entire paragraph to me with just one raised eyebrow.",
-  "34. The feeling of home that washes over me the second I walk through the door and see you.",
-  "35. Your completely unhinged sweet tooth and how excited you get over dessert.",
-  "36. How deeply you love, holding nothing back, offering your whole heart.",
-  "37. The way you softly hum to yourself when you're putting away laundry or cooking.",
-  "38. Your absolute inability to lie to me—your face gives you away every single time.",
-  "39. How you ground me when my anxiety spirals, tethering me back to reality.",
-  "40. The way you fiercely believed in me before I even knew how to believe in myself.",
-  "41. How seamlessly our lives merged; I can't remember what the 'before' felt like.",
-  "42. Your endless curiosity about the world and how you always want to keep learning.",
-  "43. The quiet, sleepy 'I love you's you murmur before drifting off.",
-  "44. How you defend the people you love like a lioness.",
-  "45. The way your face softens completely when you look at a stray dog.",
-  "46. How you are simultaneously my safest harbor and my greatest adventure.",
-  "47. The beautiful, chaotic mess you make in the kitchen when you try to bake.",
-  "48. Your intellect—the way your mind works is endlessly fascinating to me.",
-  "49. The simple, irrefutable fact that you chose me, out of everyone in the world.",
-  "50. Because you are ${SITE_CONFIG.herName}. And loving you is the easiest, most natural thing I have ever done."
-];
+export const FIFTY_REASONS: string[] = [];
 
 export const SECRET_LETTER = {
-  title: "To My Forever,",
-  paragraphs: [
-    `I don't think I'll ever fully find the right words to explain what happened on Aprill 17, 2025. I thought it was just another day. I thought I was just meeting someone new. I had absolutely no idea that I was looking at the person who would completely rewrite the rest of my life.`,
-
-    `Over these past few years, you haven't just been my partner; you have been my sanctuary. The world outside can be so incredibly loud, demanding, and chaotic, but the moment I am with you, everything just goes quiet. You are the deep breath my soul takes. I used to wonder if that kind of peace actually existed, or if it was just something people wrote about in movies and books. Now I know it does, because I feel it every time your hand is in mine.`,
-
-    `I've watched you grow, watched you fight your battles, watched you triumph, and watched you heal. And with every passing day, my respect for you deepens. You are the strongest, kindest, most radiant person I have ever had the privilege of witnessing. The fact that someone as extraordinary as you looks at me the way you do... it is the greatest honor of my life. I don't know what I did right to deserve you, but I promise I will spend the rest of my days making sure you never regret choosing me.`,
-
-    `This page is hidden because these words aren't for the world. They are just for you. A quiet corner of the internet where I can remind you that you are my favorite person, my best friend, and the absolute love of my life. As we step into another year of your life, I want you to know that my hand is glued to yours. Whatever comes next—the highs, the lows, the mundane Tuesdays, and the spectacular milestones—we face it together.`,
-
-    `Happy Birthday, my beautiful ${SITE_CONFIG.herName}. You are my today, and you are all of my tomorrows.`,
-  ],
-  signoff: "Forever entirely yours,",
-  signature: SITE_CONFIG.yourName
-};
+  title: "",
+  paragraphs: [] as string[],
+  signoff: "",
+  signature: "",
+};;
 
