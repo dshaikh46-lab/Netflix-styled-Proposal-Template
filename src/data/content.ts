@@ -16,8 +16,8 @@ export const SITE_CONFIG = {
   siteTitle: "ReDan — An Antique Love Story",
   heroTagline: "i fall in love with you , but i am falling more and more , day by day",
   siteDescription: "A piece of our memories",
-  siteURL: "https://happybirthdaykittu.vercel.app",
-  ogImage: "/images/og-preview.jpg",
+  siteURL: "netflix-styled-proposal-template-pi.vercel.app",
+  ogImage: "https://res.cloudinary.com/dyjobbl36/image/upload/q_auto/f_auto/v1778065418/IMG_9266_xmdsql.heic/images/og-preview.jpg",
   introSoundUrl: "/audio/intro-sound.mp3", // Sound to play on intro screen click
 };
 
@@ -299,10 +299,10 @@ export const TIMELINE_EVENTS = [
 export const VIDEO_SECTION = {
   title: "Our Story in Motion",
   subtitle: `A love letter to ${SITE_CONFIG.herName}, frame by frame.`,
-  videoUrl: "https://res.cloudinary.com/dadpljanb/video/upload/v1774541514/Anushka_Virat_s_Wedding_Video___The_Wedding_Filmer_w1zovi.mp4",
-  posterImage: "https://res.cloudinary.com/dadpljanb/image/upload/v1774541238/1774540798169_egyqbt.png",
-  duration: "3:24",
-  year: "2021 — Present",
+  videoUrl: "https://res.cloudinary.com/dyjobbl36/video/upload/q_auto/f_auto/v1778068042/IMG_5351_bh4ub7.mov",
+  posterImage: "https://res.cloudinary.com/dyjobbl36/image/upload/q_auto/f_auto/v1778069166/IMG20260122155520_tnp6ms.heic",
+  duration: "0:25",
+  year: "2025 — Present",
   badge: "Now Playing",
 };
 
